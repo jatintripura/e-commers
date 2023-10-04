@@ -6,14 +6,14 @@ import ract_9 from "../../assets/ract9.png";
 const Product = () => {
   return (
     <>
-      <div className="w-[447px] h-[567]">
+      <div className="w-full lg:w-[447px]  aspect-square lg:h-[567px]">
         <div className=" flex flex-col gap-8">
           <div className="w-full h-full">
             <img src={ract_4} alt="ractangle 4" />
           </div>
           <div className="flex items-center justify-between">
-            <div>
-              <img src={ract_6} alt="" />
+            <div className="">
+              <img className="" src={ract_6} alt="" />
             </div>
             <div>
               <img src={ract_7} alt="" />
