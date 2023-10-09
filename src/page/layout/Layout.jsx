@@ -6,11 +6,11 @@ import Product from "../../component/product/Product";
 const Layout = () => {
   return (
     <>
-      <div className="container mx-auto w-screen h-screen">
+      <div className="container mx-auto max-w-screen min-h-screen">
         <Header />
         <div className="pt-[91px] pb-[130]">
-          <div className="flex items-center justify-around ">
-            <div>
+          <div className="flex items-center flex-col gap-8  lg:flex-row justify-around">
+            <div className="">
               <Product />
             </div>
 
